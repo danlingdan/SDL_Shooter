@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\save.dat" />
+    <None Include="assets\music\03_Racing_Through_Asteroids_Loop.ogg" />
+    <None Include="assets\music\06_Battle_in_Space_Intro.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="assets\sound\eff5.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="assets\sound\eff11.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="assets\sound\explosion1.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="assets\sound\explosion3.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="assets\sound\laser_shoot4.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="assets\sound\xs_laser.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\image\bg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\bonus_life.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\bonus_shield.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\bonus_time.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\bullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\bullet-1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\bullet-2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\fire.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\Health UI Black.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\insect-1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\insect-2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\large-A.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\large-B.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\laser-1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\laser-2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\laser-3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\medium-A.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\medium-B.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\plasm.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\rocket.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\shield.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\small-A.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\small-B.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\SpaceShip.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\Stars-A.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\Stars-B.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\image\support.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\effect\explosion.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\font\VonwaonBitmap-12px.ttf" />
+    <Font Include="assets\font\VonwaonBitmap-16px.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneEnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneTitle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneEnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneTitle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
